@@ -2,7 +2,6 @@ package com.example.batch.job.DbDataReadWrite;
 
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
 
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
@@ -22,8 +21,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.domain.Sort;
-import org.springframework.lang.NonNull;
-import org.springframework.lang.Nullable;
 
 import com.example.batch.core.domain.accounts.AccountRepository;
 import com.example.batch.core.domain.accounts.Accounts;

@@ -11,3 +11,6 @@ spring:
     password: root
   jpa:
     show-sql: true
+  output:
+    ansi:
+      enabled: always
